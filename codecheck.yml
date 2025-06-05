@@ -1,0 +1,56 @@
+---
+version: https://codecheck.org.uk/spec/config/1.0
+
+paper:
+  title: "Wind Tunnel Load Measurements of a Leading-Edge Inflatable Kite Rigid Scale Model"
+  authors:
+    - name: Jelle Agatho Wilhelm Poland
+      ORCID: 0000-0003-3164-5648
+    - name: Johannes Marinus van Spronsen
+    - name: Mac Gaunaa
+      ORCID: 0000-0002-9478-6758
+    - name: Roland Schmehl
+      ORCID: 0000-0002-4112-841X
+  reference: https://doi.org/10.5194/wes-2025-77
+
+manifest:
+  - file: Fig6_min_trip_height.pdf
+    comment: manuscript Figure 6
+  - file: Fig7_zz_re_sweep.pdf
+    comment: manuscript Figure 7
+  - file: Fig8_re_variation_alpha_sweep_at_fixed_beta.pdf
+    comment: manuscript Figure 8
+  - file: Fig9_re_variation_beta_sweep_at_fixed_alpha.pdf
+    comment: manuscript Figure 9
+  - file: Fig10_polars_alpha.pdf
+    comment: manuscript Figure 10
+  - file: Fig11_polars_beta_double_alpha.pdf
+    comment: manuscript Figure 11
+  - file: Fig12_moment_polar_alphas.pdf
+    comment: manuscript Figure 12
+  - file: Fig13_moment_polars_beta_low_alpha.pdf
+    comment: manuscript Figure 13
+  - file: FigB1_sensor_drift.pdf
+    comment: manuscript Figure B1
+  - file: FigC1_total_support_structure.pdf
+    comment: manuscript Figure C1
+  - file: FigD1_time_series_plot.pdf
+    comment: manuscript Figure D1
+  - file: FigD2_PSD_100Hz.pdf
+    comment: manuscript Figure D2
+  - file: FigD3_PSD_10Hz.pdf
+    comment: manuscript Figure D3
+
+
+codechecker:
+  - name: Josip Grguric
+    ORCID: 0009-0003-3725-9454
+  - name: Yasel Quintero
+    ORCID: 0009-0005-9240-7370
+
+summary: >
+  Full reproduction.
+repository: https://github.com/codecheckers/certificate-2025-007
+check_time: "2025-05-26 14:00:00"
+certificate: 2025-007
+report: https://doi.org/10.5281/zenodo.15603144
