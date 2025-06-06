@@ -49,7 +49,9 @@ codechecker:
     ORCID: 0009-0005-9240-7370
 
 summary: >
-  Full reproduction.
+  This codecheck resulted in a full reproduction of the figures presented in the publication.
+  The authors provided a GitHub repository containing all the necessary code and instructions for reproducing the figures and provided the yet to be published data directly.
+  Required adjustments: modifying the path to the data folder, providing LaTeX is a system dependency. 
 repository: https://github.com/codecheckers/certificate-2025-007
 check_time: "2025-05-26 14:00:00"
 certificate: 2025-007
