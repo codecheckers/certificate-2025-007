@@ -11,7 +11,8 @@ paper:
       ORCID: 0000-0002-9478-6758
     - name: Roland Schmehl
       ORCID: 0000-0002-4112-841X
-  reference: https://doi.org/10.5194/wes-2025-77
+  reference: https://doi.org/10.5194/wes-11-911-2026
+  # preprint reference: https://doi.org/10.5194/wes-2025-77
 
 manifest:
   - file: Fig6_min_trip_height.pdf
